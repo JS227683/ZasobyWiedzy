@@ -1,28 +1,38 @@
-<!DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01//EN”>
-<html lang=”en”>
+<html>
 <head>
-<meta http-equiv=”Content-Type” content=”text/html; charset=ISO-8859-1″>
-<title>Moja pierwsza strona</title>
-<link rel=”stylesheet” href=”style.css” type=”text/css”>
+<style>
+body{
+background-color:pink;
+}
+.wizytowka{
+max-width: 500px;
+border: 2px solid black;
+background-color:gray;
+}
+.wizytowkaheader{
+height: 30px;
+border-bottom: 5px solid black;
+}
+.wizytowkamain{
+height: 200px;
+padding-left:20px;
+padding-right:20px;
+}
+</style>
 </head>
 <body>
-<div id=”header”>
-<h1>Nagłówek</h1>
+<div class="wizytowka">
+<div class="wizytowkaheader">
+<h4 align="center">wizytowka</h4>
 </div>
-<div id=”navigation”>
-<h2>Nawigacja</h2>
-<ul>
-<li><a href=”first.html”>link</a></li>
-<li><a href=”second.html”>link</a></li>
-<li><a href=”third.html”>link</a></li>
-</ul>
-</div>
-<div id=”content”>
-<h2>Treśćt</h2>
-<p>treść stronye</p>
-</div>
-<div id=”footer”>
-<p>Autor: BLA BLA</p>
+<div class="wizytowkamain">
+<center>
+<p>Zaklad pogrzebowy</p>
+<p>Hades</p>
+<p>Jan Kowalski<p>
+<h6 style="float:left;">Numer telefonu<br>999-999-999<br>Warszawa<br>UL</h6>
+<h6 style="float:right">Email<br>email</h6>
+</center>
 </div>
 </body>
 </html>
